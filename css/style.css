@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto ;
+    width: 100%;
+    background-color: rgb(14, 233, 32);
+    border: 5px double rgb(32, 18, 230);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+. container {
+padding: 1rem;
+}
+
+nav {
+background-color: rgb(218, 233, 16);
+display: flex;
+flex-direction: row;
+justify-content: space-between; 
+padding: 2rem 5rem;
+margin-bottom: 2rem;
+border-bottom: 0.5rem double rgb(9, 221, 228);
+position: fixed;
+top: 0;
+width: 100%; 
+
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    list-style: none;
+}
+.nav_list >li > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.nav_list >li > a:hover{
+    text-decoration: underline;
+    font-weight:500 ;
+    color: rgb(13, 92, 238);
+}
+
+.container > nav > a {
+    text-decoration: none;
+    color: rgb(236, 82, 20);
+    font-weight: bolder;
+}
+
+.first_section {
+    text-align: center;
+     margin-bottom: 4rem; 
+     padding-top: 7rem;
+}
+
+.first_section img {
+    width:15% ;
+    border-radius: 95px;
+    /* padding-bottom: 0rem; */
+}
+
+.first_section h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: brown;
+}
+.first_section p {
+    width: 40%; 
+    margin: 0 auto;
+    color: navy;
+    line-height: 30px;
+}
+
+.second_section {
+    text-align: center;
+    background-color:yellowgreen ;
+    padding: 4rem 0; 
+}
+
+.second_section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    color: brown;
+    font-style: italic;
+}
+
+.second_section p {
+    width: 50%;
+    line-height: 30px;
+    margin: 0 auto;
+    font-weight: 500;
+    color: navy;
+}
+
+.third_section {
+padding: 4rem 0;
+text-align: center;
+}
+
+.second_section h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: blueviolet;
+    padding-bottom: 1.5rem;
+}
+h1 {
+    font-size: 2rem;
+    color: brown;
+    font-style: italic;
+}
+.skillset p {
+    font-size: 1rem;
+    padding: 1rem 0 1rem;
+}
+.html {
+    background-color: black;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 1px solid blue
+}
+.html h3{
+    width: 95%;
+    padding: 0.3rem 0;
+    border-radius: 15px;
+    background-color:white;
+}
+.css {
+    background-color: black;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 1px solid blue;
+}
+
+.css h3{
+    width: 50%;
+    padding: 0.3rem 0;
+    border-radius: 15px;
+    background-color:white ;
+}
+
+.git {
+    background-color: black;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 1px solid blue;
+}
+
+.git h3{
+    width: 60%;
+    padding: 0.3rem 0;
+    border-radius: 15px;
+    background-color:white ;
+}
+
+.social_media > a > img {
+    width: 15%;
+    margin-right: 5px; 
+}
+
+
+footer{
+    background-color: yellowgreen;
+    padding: 4rem 0;
+}
+footer h5 {
+    text-align: right; 
+}
+
+.main_footer {
+justify-content: space-between; 
+display: flex;
+flex-direction: row;
+gap: 30rem;
+}
+
+.location  {
+padding-left: 1rem ;
+margin: 0 auto;
+color: brown;
+font-style: italic;
+}
+
+.links h1 {
+    padding: 1rem;
+}
